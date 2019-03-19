@@ -2,6 +2,7 @@ export default [
   {
     name: 'Fish',
     breed: 'tuxedo',
+    species: 'cat',
     gender: 'male',
     age: 20,
     color: 'black/white',
@@ -12,6 +13,7 @@ export default [
   {
     name: 'Henry',
     breed: 'tabby',
+    species: 'cat',
     gender: 'male',
     age: 20,
     color: 'orange/white',
@@ -22,6 +24,7 @@ export default [
   {
     name: 'Roger',
     breed: 'tabby',
+    species: 'cat',
     gender: 'male',
     age: 20,
     color: 'gray',
@@ -32,6 +35,7 @@ export default [
   {
     name: 'Kitkat',
     breed: 'bombay',
+    species: 'cat',
     gender: 'female',
     age: .9,
     color: 'black',
