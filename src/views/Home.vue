@@ -57,7 +57,8 @@ export default {
   computed: {
     ...mapGetters([
       'animalsCount',
-      'getAllCats'
+      'getAllCats',
+      'getAllDogs'
     ])
   },
   methods: {
