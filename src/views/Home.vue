@@ -1,9 +1,13 @@
 <template>
   <div class="home-view-container">
     <h1>Adopt a new best friend.</h1>
-    {{ getAllCats.length }}
-    {{ animalsCount }}
-
+   <h5>Total no. of Animals ready for Adoption: {{ animalsCount }}</h5>
+      <h3>
+        <font-awesome-icon icon="cat"/>
+        {{ getAllCats.length }} +
+        <font-awesome-icon icon="dog"/>
+        {{ getAllDogs.length }}
+      </h3>
     <button @click="togglePetForm" class="btn btn-primary">Add New Pet</button>
 
     <b-form @submit.prevent="handleSubmit" v-if="showPetForm">
