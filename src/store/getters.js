@@ -1,11 +1,11 @@
 export default {
-  animalsCount: state => {
+  animalsCount: (state) => {
     return state.cats.length + state.dogs.length;
   },
-  getAllCats: state => {
+  getAllCats: (state) => {
     return state.cats;
   },
-  getAllDogs: state => {
+  getAllDogs: (state) => {
     return state.dogs;
   }
 };
